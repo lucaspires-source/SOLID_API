@@ -1,0 +1,20 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucaspires-source/SOLID_API.git",
+  "author": "lucaspires-source <pires.lucas94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "uuidv4": "^6.2.13"
+  },
+  "scripts": {
+    "start": "tsnd --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
